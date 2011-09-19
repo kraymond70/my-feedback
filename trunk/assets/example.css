@@ -1,0 +1,76 @@
+/*
+ * @category CSS
+ * @package Support Request Tool
+ * @copyright 2011, 2012 Dmitry Sheiko (http://dsheiko.com)
+ * @license GNU
+ */
+
+body { background-color: #D8DCE0; font-family: Tahoma; font-size: 14px; }
+h1 { font-family: Tahoma; color: #fff; font-size: 18px; }
+h2 { font-family: Tahoma; font-size: 16px; }
+dfn, acronym, abbr { font-style: normal; }
+div.desktop {
+    padding: 0;
+    margin-left: -484px;
+    width: 968px;
+    left: 50%;
+    position: absolute;
+    z-index: auto;
+}
+div.desktop > div.silo {
+    -moz-box-shadow: 5px 5px 5px #999;
+    -webkit-box-shadow: 5px 5px 5px #999;
+}
+div.silo > div.header {
+    background-color: #3C5F87;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+}
+div.silo > div.body {
+    background-color: #fff;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    overflow: hidden;
+}
+div.silo > div.body > div.content {
+    padding: 10px;
+    width: 688px;
+}
+div.silo > div.body > div.sidebar {
+    padding: 10px;
+    width: 240px;
+    float: right;
+}
+div.copyright {
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+form.srt-preview textarea {
+    border: 1px solid #3C5F87;
+    height: 80px;
+    width: 940px;
+}
+form.srt-preview fieldset {
+    border: 0;
+    padding: 0 0 5px 0;
+    margin: 0;
+}
+form.srt-preview label {
+    display: block;
+    margin: 5px 0;
+}
+div.content textarea {
+    width: 90%;
+    height: auto;
+    border: 1px solid #3C5F87;
+    padding: 5px;
+}
+div.screenshot {
+    background: url(./loader.gif) center center no-repeat;
+    width: 940px;
+    min-height: 500px;
+    overflow: auto;
+    border: 1px solid #3C5F87;
+}
